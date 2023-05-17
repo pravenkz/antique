@@ -1,0 +1,126 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: var(--color-lightgray);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+
+}
+
+.navbar__logo{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar__logo img{
+    width: 100%;
+}
+
+.navbar__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__links p,
+.navbar__sign p 
+{
+    margin-right: 1rem;
+    font-size: 18px;
+    font-family: var(--font-secondary);
+    color: var(--color-font-s);
+    transition: 1s ease;
+    
+    
+}
+.navbar__links p:hover,
+.navbar__sign p:hover{
+    text-decoration: underline;
+    color: var(--color-darkgray)
+}
+
+.navbar__links p>a,
+.navbar__sign p>a
+{
+    text-decoration: none;
+    color: var(--color-font-s);
+}
+
+.navbar__sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar__sign div{
+    width: 2px;
+    height: 16px;
+    background: #838A80;
+    margin-right: 1rem;
+}
+
+.navbar__menu{
+    display: none;
+    position: relative;
+}
+
+.navbar__menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1rem;
+    min-width: 210px;
+    background-color: var(--color-gray);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+
+}
+
+.navbar__menu-container_links p,
+.navbar__menu-container_sign p
+{
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    margin-bottom: 0.2rem;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 0 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    
+}
+
+.navbar__menu-container_links p>a,
+.navbar__menu-container_sign p
+{
+    text-decoration: none;
+    color: var(--color-font-s);
+}
+
+@media screen and (max-width:770px) {
+    .navbar__links{
+        display: none;
+    }
+    .navbar__menu{
+        display: block;
+    }
+    .navbar__menu-container_sign{
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .navbar__sign{
+        display: none;
+    }
+    .navbar__menu-container_sign{
+        display: block;
+    }
+}
