@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/antique/static/css/main.9137e2fe.css",
+    "main.js": "/antique/static/js/main.99a19e20.js",
+    "static/media/product2.jpeg": "/antique/static/media/product2.9d9581e697919b7bbbb7.jpeg",
+    "static/media/header.png": "/antique/static/media/header.32aaeaa59ea2da05cb65.png",
+    "static/media/header1bg.png": "/antique/static/media/header1bg.212bfe8f29bf24546435.png",
+    "static/media/product4.jpeg": "/antique/static/media/product4.35546286832a71148573.jpeg",
+    "static/media/about.png": "/antique/static/media/about.f98fe706b2f22263a142.png",
+    "static/media/product1.jpg": "/antique/static/media/product1.e8e675cc6567cc694de9.jpg",
+    "static/media/product3.jpg": "/antique/static/media/product3.9fc8d08c7e0328ac0de6.jpg",
+    "static/media/product5.jpg": "/antique/static/media/product5.2a18157e3c80c019b45d.jpg",
+    "index.html": "/antique/index.html",
+    "main.9137e2fe.css.map": "/antique/static/css/main.9137e2fe.css.map",
+    "main.99a19e20.js.map": "/antique/static/js/main.99a19e20.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9137e2fe.css",
+    "static/js/main.99a19e20.js"
+  ]
+}
